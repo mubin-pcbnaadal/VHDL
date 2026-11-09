@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mubin/tp78
+Edigital_gene
+Z1 w1794266130
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+8digital_gene_e.vhd
+Fdigital_gene_e.vhd
+l0
+L5 1
+VlUdMRc[=[jGKOU836eN>=2
+!s100 i?ngWZ_WcOjEA84XiWK?80
+Z5 OV;C;2020.1;71
+33
+!s110 1794267141
+!i10b 1
+!s108 1794267141.000000
+!s90 -reportprogress|300|-2008|-work|tp78|digital_gene_e.vhd|
+!s107 digital_gene_e.vhd|
+!i113 1
+Z6 o-2008 -work tp78
+Z7 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+R4
+DEx4 work 12 digital_gene 0 22 lUdMRc[=[jGKOU836eN>=2
+!i122 4
+8digital_gene_a1.vhd
+Fdigital_gene_a1.vhd
+l6
+L1 41
+V=J]8I>i1b2jl0FY5_zBzT1
+!s100 5eW`1c^Sj11Z>SQ<>Ja4I1
+R5
+33
+!s110 1794267146
+!i10b 1
+!s108 1794267146.000000
+!s90 -reportprogress|300|-2008|-work|tp78|digital_gene_a1.vhd|
+!s107 digital_gene_a1.vhd|
+!i113 1
+R6
+R7
+Egray_counter
+R1
+Z8 DPx4 work 7 myfuncs 0 22 f=m[SCZh`SZX;X=HJTa2N0
+R2
+R3
+R4
+!i122 2
+R0
+8gray_counter_e.vhd
+Fgray_counter_e.vhd
+l0
+L6 1
+V<Ei;54mPgl:zUd4kUUlVI3
+!s100 E1;?INESfCN;0TMb34nWK0
+R5
+33
+!s110 1794267134
+!i10b 1
+!s108 1794267134.000000
+!s90 -reportprogress|300|-2008|-work|tp78|gray_counter_e.vhd|
+!s107 gray_counter_e.vhd|
+!i113 1
+R6
+R7
+Aa2
+R8
+R2
+R3
+R4
+Z9 DEx4 work 12 gray_counter 0 22 <Ei;54mPgl:zUd4kUUlVI3
+!i122 5
+8gray_counter_a2.vhd
+Fgray_counter_a2.vhd
+l19
+L13 69
+VG7?6AzXS:kz9FSO[R`H8Z0
+!s100 4Q[[nVcV]FkIk;zW[HE[[2
+R5
+33
+!s110 1794267414
+!i10b 1
+!s108 1794267414.000000
+!s90 -reportprogress|300|-2008|-work|tp78|gray_counter_a2.vhd|
+!s107 gray_counter_a2.vhd|
+!i113 1
+R6
+R7
+Aa1
+R8
+R2
+R3
+R4
+R9
+!i122 3
+8gray_counter_a1.vhd
+Fgray_counter_a1.vhd
+l16
+L11 57
+VG0<SN1VdZ?g8WGgFPlV6H2
+!s100 feRnTEc<zN`7[oOAZn<>W2
+R5
+33
+!s110 1794267137
+!i10b 1
+!s108 1794267137.000000
+!s90 -reportprogress|300|-2008|-work|tp78|gray_counter_a1.vhd|
+!s107 gray_counter_a1.vhd|
+!i113 1
+R6
+R7
+Pmyfuncs
+R2
+R3
+R4
+!i122 1
+R1
+R0
+8myfuncs_package.vhd
+Fmyfuncs_package.vhd
+l0
+L9 1
+Vf=m[SCZh`SZX;X=HJTa2N0
+!s100 DgSPAShYdmkc0a?IEFlon1
+R5
+33
+b1
+!s110 1794267126
+!i10b 1
+!s108 1794267126.000000
+!s90 -reportprogress|300|-2008|-work|tp78|myfuncs_package.vhd|
+!s107 myfuncs_package.vhd|
+!i113 1
+R6
+R7
+Bbody
+R8
+R2
+R3
+R4
+!i122 2
+8myfuncs_body.vhd
+Fmyfuncs_body.vhd
+l0
+L5 1
+Vz8HUFO@V;eFnGEig24hmb2
+!s100 QD8>A2o;Cm]^kVzYYnVb_1
+R5
+33
+!s110 1794267130
+!i10b 1
+!s108 1794267130.000000
+!s90 -reportprogress|300|-2008|-work|tp78|myfuncs_body.vhd|
+!s107 myfuncs_body.vhd|
+!i113 1
+R6
+R7
+Etest_gray
+R1
+R2
+R3
+R4
+!i122 4
+R0
+8test_gray_e.vhd
+Ftest_gray_e.vhd
+l0
+L6 1
+VIPFH2?c:=48`0N1Ii]j:^3
+!s100 nE;h;c?1C3=VP@zE1X9d62
+R5
+33
+!s110 1794267149
+!i10b 1
+!s108 1794267149.000000
+!s90 -reportprogress|300|-2008|-work|tp78|test_gray_e.vhd|
+!s107 test_gray_e.vhd|
+!i113 1
+R6
+R7
+Aa1
+w1794267400
+R8
+R9
+R2
+R3
+R4
+Z10 DEx4 work 9 test_gray 0 22 IPFH2?c:=48`0N1Ii]j:^3
+!i122 5
+Z11 8test_gray_a1.vhd
+Z12 Ftest_gray_a1.vhd
+l37
+Z13 L1 49
+VZ40Fi:ANST[L]l0DLKijb2
+!s100 R0QQ67D9[3ATQ`mYadM=M0
+R5
+33
+!s110 1794267418
+!i10b 1
+!s108 1794267418.000000
+Z14 !s90 -reportprogress|300|-2008|-work|tp78|test_gray_a1.vhd|
+Z15 !s107 test_gray_a1.vhd|
+!i113 1
+R6
+R7
