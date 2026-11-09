@@ -1,0 +1,19 @@
+digraph DP { rankdir=LR; node[fontname="Helvetica",fontsize=11]; edge[fontname="Helvetica",fontsize=9];
+X [shape=plaintext,label="X\n(signed 16)"];
+SQ [shape=box,label="Squarer\nX × X\n31 bits"];
+MUX [shape=trapezium,orientation=270,label="MUX\n0 | ACC"];
+ADD [shape=circle,label="+"];
+ACC [shape=box,style=filled,fillcolor="#dde8f7",label="ACC register\n31+m bits\n(enable ld_acc)"];
+SH [shape=box,label="÷ N = >> m\n(bits 29+m..m)"];
+PR [shape=box,style=filled,fillcolor="#dde8f7",label="P register\n30 bits\n(enable ld_p)"];
+P [shape=plaintext,label="P"];
+CNT [shape=box,style=filled,fillcolor="#dde8f7",label="Counter CNT\nm bits\n(clr_cnt, inc_cnt)"];
+CMP [shape=box,label="CNT = N-2 ?"];
+FSM [shape=box,style="rounded,filled",fillcolor="#fde9c9",label="Control FSM"];
+X->SQ->ADD; ACC->MUX; MUX->ADD [label="opa"]; ADD->ACC [label="SUM"]; ADD->SH->PR->P;
+CNT->CMP; CMP->FSM [label="end_cnt",color="#c0392b",fontcolor="#c0392b"];
+FSM->MUX [label="init",style=dashed,color="#c0392b",fontcolor="#c0392b"];
+FSM->ACC [label="ld_acc",style=dashed,color="#c0392b",fontcolor="#c0392b"];
+FSM->PR [label="ld_p",style=dashed,color="#c0392b",fontcolor="#c0392b"];
+FSM->CNT [label="clr_cnt, inc_cnt",style=dashed,color="#c0392b",fontcolor="#c0392b"];
+}

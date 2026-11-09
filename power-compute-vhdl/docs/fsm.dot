@@ -1,0 +1,8 @@
+digraph FSM { rankdir=LR; node[shape=circle,fontname="Helvetica",fontsize=11,width=1.3,fixedsize=true]; edge[fontname="Helvetica",fontsize=10];
+IDLE [label="IDLE\nclr_cnt"]; FIRST [label="FIRST\ninit, ld_acc\ninc_cnt"]; ACCU [label="ACCU\nld_acc\ninc_cnt"]; LAST [label="LAST\nld_p\nclr_cnt"];
+start [shape=plaintext,label="reset",width=0.5]; start->IDLE;
+IDLE->IDLE [label="C=0"]; IDLE->FIRST [label="C=1"];
+FIRST->ACCU [label="end_cnt=0"]; FIRST->LAST [label="end_cnt=1\n(m=1 only)"];
+ACCU->ACCU [label="end_cnt=0"]; ACCU->LAST [label="end_cnt=1"];
+LAST->FIRST [label="C=1"]; LAST->IDLE [label="C=0"];
+}

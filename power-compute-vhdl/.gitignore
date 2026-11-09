@@ -1,0 +1,18 @@
+# GHDL
+build/
+*.o
+*.cf
+*.ghw
+*.vcd
+test_power_compute
+
+# ModelSim / Questa
+sim/modelsim/work/
+sim/modelsim/modelsim.ini
+sim/modelsim/transcript
+sim/modelsim/vsim.wlf
+sim/modelsim/*.wlf
+sim/modelsim/wlf*
+
+# Python
+__pycache__/
